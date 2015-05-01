@@ -1,0 +1,4 @@
+#inserisci questo nel vecchio dominio
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule ^(.*)$ http://www.nuovodominio.com/$1 [R=301,L]
